@@ -37,7 +37,7 @@ include 'dischi.php';
             </select>
 
             <div class="container-songs">
-                <?php foreach ($dischi as $key => $value) { ?>
+                <?php foreach ($dischi as $value) { ?>
                     <div class="song" data-genere="<?php echo $value['genre']; ?>">
                         <div class="img-container">
                             <img src="<?php echo $value['poster']; ?>" alt="">
